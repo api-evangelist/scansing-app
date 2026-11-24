@@ -1,4 +1,4 @@
-# scansing-app
+# ScanSing
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-scansing-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://scansing.app/
+ScanSing is a mobile and desktop application that lets choir singers scan printed or PDF choir sheet music, automatically extracts their individual vocal part, and plays it louder so they can learn their part offline. The service works without an internet connection, supports MusicXML export, and offers a free tier with limited scans plus a Pro subscription for unlimited use. It targets SATB, SSA, TTBB choral scores and provides features like looping, tempo adjustment, and part isolation.
+
+**Areas:** Music · Choir · Audio · Mobile · Desktop
+
+## ScanSing on APIs.io
+
+Everything profiled for ScanSing is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scansing-app/](https://apis.io/providers/scansing-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [ScanSing API](https://apis.io/apis/scansing-app/scansing-api/) — ScanSing REST API: send a PDF or photo of sheet music, get MusicXML back. Supports parts extraction, transposition, MIDI and page counts via a single HTTPS…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ScanSing Domain Security](https://apis.io/security/scansing-app/scansing-app-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [ScanSing Plans Pricing](https://apis.io/plans/scansing-app/scansing-app-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://scansing.app/)
+- [Pricing](https://scansing.app/pricing/)
+- [Terms of service](https://scansing.app/terms/)
+- [Privacy policy](https://scansing.app/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 18.0** — emerging · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 48.5 |
+
+**Agent readiness 18.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scansing-app/](https://apis.io/providers/scansing-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ScanSing: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scansing-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
